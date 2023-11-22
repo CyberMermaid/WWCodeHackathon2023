@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WellnessResolutions" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.WellnessResolutions" parent="Base.Theme.WellnessResolutions" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+<!--        First Parameter: Background Color-->
+        <item name="windowSplashScreenBackground">@color/beige</item>
+<!--        Second Parameter: Icon-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/nywr_logo</item>
+<!--        Third Parameter: Main Activity-->
+        <item name="postSplashScreenTheme">@style/Base.Theme.WellnessResolutions</item>
+
+    </style>
+</resources>
